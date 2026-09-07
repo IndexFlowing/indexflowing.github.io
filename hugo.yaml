@@ -1,52 +1,92 @@
 baseURL: "https://indexflowing.github.io/"
 title: "Vincent's Tech Lab"
-languageCode: "en-us"
 theme: "PaperMod"
 
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 
+# 🌟 1. 开启中英双语国际化 (i18n)
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    contentDir: "content/en"
+    title: "Vincent's Tech Lab"
+    params:
+      profileMode:
+        enabled: true
+        title: "Hi, I'm Vincent 👋"
+        subtitle: "Full-stack engineer & indie builder. Building high-performance systems with Rust & Next.js."
+        buttons:
+          - name: "MandarinClips"
+            url: "https://www.mandarinclips.com"
+          - name: "InkVilion"
+            url: "https://www.inkvilion.com"
+          - name: "IndexFlowing"
+            url: "https://indexflowing.com"
+    menu:
+      main:
+        - identifier: posts
+          name: "Posts"
+          url: "/posts/"
+          weight: 10
+        - identifier: categories
+          name: "Topics"
+          url: "/categories/"
+          weight: 20
+        - identifier: tags
+          name: "Tags"
+          url: "/tags/"
+          weight: 30
+
+  zh:
+    languageName: "简体中文"
+    weight: 2
+    contentDir: "content/zh"
+    title: "文森特的工程实验室"
+    params:
+      profileMode:
+        enabled: true
+        title: "你好，我是 Vincent 👋"
+        subtitle: "全栈工程师 & 独立开发者。专注于 Rust、Next.js 与高性能出海系统。"
+        buttons:
+          - name: "MandarinClips 视频切片"
+            url: "https://www.mandarinclips.com"
+          - name: "InkVilion 词典"
+            url: "https://www.inkvilion.com"
+          - name: "IndexFlowing 索引基建"
+            url: "https://indexflowing.com"
+    menu:
+      main:
+        - identifier: posts
+          name: "文章"
+          url: "/zh/posts/"
+          weight: 10
+        - identifier: categories
+          name: "核心项目"
+          url: "/zh/categories/"
+          weight: 20
+
+# 🌟 2. 全局样式与页脚定制
 params:
   env: production
-  title: "Vincent's Tech Lab"
-  description: "Personal lab of Vincent. Exploring Rust, systems architecture, Next.js, and programmatic SEO."
-  author: "Vincent"
-  
-  # 主题默认配置
   defaultTheme: "dark"
   disableThemeToggle: false
   ShowReadingTime: true
   ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
 
-  # 首页大卡片模式 (Profile Mode)
-  profileMode:
-    enabled: true
-    title: "Hi, I'm Vincent 👋"
-    subtitle: "Full-stack engineer & indie hacker. Building high-performance systems with Rust & Next.js."
-    buttons:
-      - name: "MandarinClips"
-        url: "https://www.mandarinclips.com"
-      - name: "InkVilion"
-        url: "https://www.inkvilion.com"
-      - name: "IndexFlowing"
-        url: "https://www.indexflowing.com"
+  # 隐藏官方的 "Powered by Hugo & PaperMod"
+  ShowPoweredBy: false
 
-  # 社交链接
+  # 自定义你的专属页脚（带 indexflowing.com 外链）
+  customFooterText: '© 2025 Vincent • Powered by <a href="https://www.indexflowing.com" target="_blank" style="text-decoration:underline;">IndexFlowing</a>'
+
   socialIcons:
     - name: "github"
       url: "https://github.com/indexflowing"
-
-menu:
-  main:
-    - identifier: posts
-      name: "Posts"
-      url: "/posts/"
-      weight: 10
-    - identifier: tags
-      name: "Tags"
-      url: "/tags/"
-      weight: 20
