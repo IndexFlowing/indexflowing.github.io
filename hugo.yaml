@@ -1,0 +1,52 @@
+baseURL: "https://indexflowing.github.io/"
+title: "Vincent's Tech Lab"
+languageCode: "en-us"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+params:
+  env: production
+  title: "Vincent's Tech Lab"
+  description: "Personal lab of Vincent. Exploring Rust, systems architecture, Next.js, and programmatic SEO."
+  author: "Vincent"
+  
+  # 主题默认配置
+  defaultTheme: "dark"
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  # 首页大卡片模式 (Profile Mode)
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Vincent 👋"
+    subtitle: "Full-stack engineer & indie hacker. Building high-performance systems with Rust & Next.js."
+    buttons:
+      - name: "MandarinClips"
+        url: "https://www.mandarinclips.com"
+      - name: "InkVilion"
+        url: "https://www.inkvilion.com"
+      - name: "IndexFlowing"
+        url: "https://www.indexflowing.com"
+
+  # 社交链接
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/indexflowing"
+
+menu:
+  main:
+    - identifier: posts
+      name: "Posts"
+      url: "/posts/"
+      weight: 10
+    - identifier: tags
+      name: "Tags"
+      url: "/tags/"
+      weight: 20
