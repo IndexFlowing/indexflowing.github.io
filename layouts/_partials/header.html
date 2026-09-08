@@ -9,11 +9,9 @@
           <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="4.22"></line></svg>
         </button>
         {{- end }}
-        {{- $translations := .Translations }}
-        {{- if not $translations }}{{ $translations = site.Home.Translations }}{{ end }}
-        {{- with $translations }}
+        {{- if hugo.IsMultilingual }}
         <span class="nav-sep">|</span>
-        <ul class="lang-menu">{{ range . }}<li><a href="{{ .RelPermalink }}" data-language-preference="{{ .Lang }}" title="{{ .Language.Params.languageAltTitle | default .Language.Label }}">{{ .Language.Label | default (.Lang | title) }}</a></li>{{ end }}</ul>
+        <ul class="lang-menu">{{ range hugo.Sites }}{{ if ne .Language.Lang $.Language.Lang }}{{ $fallbackURL := .Home.RelPermalink }}{{ $targetPage := .GetPage $.Kind $.Path }}<li><a href="{{ with $targetPage }}{{ .RelPermalink }}{{ else }}{{ $fallbackURL }}{{ end }}" data-language-preference="{{ .Language.Lang }}" title="{{ .Language.Params.languageAltTitle | default .Language.LanguageName }}">{{ .Language.LanguageName | default (.Language.Lang | title) }}</a></li>{{ end }}{{ end }}</ul>
         {{- end }}
       </div>
     </div>

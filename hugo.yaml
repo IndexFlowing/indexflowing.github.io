@@ -15,7 +15,7 @@ taxonomies:
 
 languages:
   en:
-    label: "English"
+    languageName: "English"
     weight: 1
     contentDir: "content/en"
     title: "Sanfeng's Tech Lab"
@@ -50,7 +50,7 @@ languages:
           weight: 60
 
   zh:
-    label: "中文"
+    languageName: "中文"
     weight: 2
     contentDir: "content/zh"
     title: "张三疯的风的工程实验室"
