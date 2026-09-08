@@ -2,6 +2,8 @@
 title: "如何更快学会普通话：初学者实用学习计划"
 date: 2026-09-08
 draft: false
+aliases:
+  - /products/how-to-learn-mandarin-faster-a-practical-study-plan-for-beginners/
 description: "一份适合初学者的普通话学习计划，涵盖发音、词汇、听力、口语、阅读，以及如何建立可持续的中文学习习惯。"
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning", "Learn Mandarin", "Chinese Study", "Chinese for Beginners"]
