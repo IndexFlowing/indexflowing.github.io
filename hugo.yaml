@@ -14,20 +14,11 @@ languages:
   en:
     languageName: "English"
     weight: 1
-    contentDir: "content/en"
     title: "Vincent's Tech Lab"
     params:
-      profileMode:
-        enabled: true
-        title: "Hi, I'm Vincent 👋"
-        subtitle: "Full-stack engineer & indie builder. Building high-performance systems with Rust & Next.js."
-        buttons:
-          - name: "MandarinClips"
-            url: "https://www.mandarinclips.com"
-          - name: "InkVilion"
-            url: "https://www.inkvilion.com"
-          - name: "IndexFlowing"
-            url: "https://indexflowing.com"
+      homeInfoParams:
+        Title: "Building useful things for the web."
+        Content: "Notes on products, engineering, and the systems behind them."
     menu:
       main:
         - identifier: posts
@@ -46,20 +37,11 @@ languages:
   zh:
     languageName: "简体中文"
     weight: 2
-    contentDir: "content/zh"
     title: "文森特的工程实验室"
     params:
-      profileMode:
-        enabled: true
-        title: "你好，我是 Vincent 👋"
-        subtitle: "全栈工程师 & 独立开发者。专注于 Rust、Next.js 与高性能出海系统。"
-        buttons:
-          - name: "MandarinClips 视频切片"
-            url: "https://www.mandarinclips.com"
-          - name: "InkVilion 词典"
-            url: "https://www.inkvilion.com"
-          - name: "IndexFlowing 索引基建"
-            url: "https://indexflowing.com"
+      homeInfoParams:
+        Title: "构建真正有用的 Web 产品。"
+        Content: "记录产品、工程实践，以及支撑它们运转的系统。"
     menu:
       main:
         - identifier: posts
@@ -80,12 +62,8 @@ params:
   ShowShareButtons: true
   ShowCodeCopyButtons: true
   ShowBreadCrumbs: true
-
-  # 隐藏官方的 "Powered by Hugo & PaperMod"
-  ShowPoweredBy: false
-
-  # 自定义你的专属页脚（带 indexflowing.com 外链）
-  customFooterText: '© 2025 Vincent • Powered by <a href="https://www.indexflowing.com" target="_blank" style="text-decoration:underline;">IndexFlowing</a>'
+  mainSections:
+    - posts
 
   socialIcons:
     - name: "github"
