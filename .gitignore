@@ -1,0 +1,119 @@
+# ================================
+
+# Hugo
+
+# ================================
+
+# Hugo build output
+
+/public/
+/resources/_gen/
+
+# Hugo server / cache
+
+.hugo_build.lock
+
+# ================================
+
+# OS
+
+# ================================
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# Linux
+
+*~
+
+# Windows thumbnail cache
+
+ehthumbs.db
+
+# ================================
+
+# Editors / IDEs
+
+# ================================
+
+# VS Code
+
+.vscode/
+
+# JetBrains
+
+.idea/
+*.iml
+
+# Vim
+
+*.swp
+*.swo
+
+# Emacs
+
+*~
+#*#
+
+# ================================
+
+# Node.js
+
+# ================================
+
+# Only needed if this Hugo project uses npm / PostCSS / Tailwind
+
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+
+# npm logs
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ================================
+
+# Environment / Secrets
+
+# ================================
+
+.env
+.env.*
+!.env.example
+
+# Local secrets
+
+*.pem
+*.key
+
+# Local configuration
+
+config.local.*
+hugo.local.*
+
+# ================================
+
+# Temporary files
+
+# ================================
+
+*.tmp
+*.temp
+*.bak
+*.log
+
+.cache/
+.tmp/
+temp/
