@@ -9,83 +9,100 @@ buildFuture: false
 # 🌟 1. 开启中英双语国际化 (i18n)
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
+taxonomies:
+  category: categories
+  tag: tags
 
 languages:
   en:
-    languageName: "English"
+    label: "English"
     weight: 1
     contentDir: "content/en"
     title: "Vincent's Tech Lab"
     params:
-      profileMode:
-        enabled: true
-        title: "Hi, I'm Vincent 👋"
-        subtitle: "Full-stack engineer & indie builder. Building high-performance systems with Rust & Next.js."
-        buttons:
-          - name: "MandarinClips"
-            url: "https://www.mandarinclips.com"
-          - name: "InkVilion"
-            url: "https://www.inkvilion.com"
-          - name: "IndexFlowing"
-            url: "https://indexflowing.com"
+      description: "Notes on AI products, open source, engineering, and indie development."
+      languageAltTitle: "Switch to English"
     menu:
       main:
-        - identifier: posts
-          name: "Posts"
-          url: "/posts/"
+        - identifier: products
+          name: "Products"
+          url: "/categories/products/"
           weight: 10
-        - identifier: categories
-          name: "Topics"
-          url: "/categories/"
+        - identifier: engineering
+          name: "Engineering"
+          url: "/categories/engineering/"
           weight: 20
-        - identifier: tags
-          name: "Tags"
-          url: "/tags/"
+        - identifier: growth
+          name: "Growth"
+          url: "/categories/growth/"
           weight: 30
+        - identifier: thoughts
+          name: "Thoughts"
+          url: "/categories/thoughts/"
+          weight: 40
+        - identifier: open-source
+          name: "Open Source"
+          url: "/categories/open-source/"
+          weight: 50
+        - identifier: about
+          name: "About"
+          url: "/#about"
+          weight: 60
 
   zh:
-    languageName: "简体中文"
+    label: "中文"
     weight: 2
     contentDir: "content/zh"
     title: "文森特的工程实验室"
     params:
-      profileMode:
-        enabled: true
-        title: "你好，我是 Vincent 👋"
-        subtitle: "全栈工程师 & 独立开发者。专注于 Rust、Next.js 与高性能出海系统。"
-        buttons:
-          - name: "MandarinClips 视频切片"
-            url: "https://www.mandarinclips.com"
-          - name: "InkVilion 词典"
-            url: "https://www.inkvilion.com"
-          - name: "IndexFlowing 索引基建"
-            url: "https://indexflowing.com"
+      description: "记录 AI 产品、开源、工程实践与独立开发。"
+      languageAltTitle: "切换到中文"
+      DateFormat: "2006年1月2日"
     menu:
       main:
-        - identifier: posts
-          name: "文章"
-          url: "/zh/posts/"
+        - identifier: products
+          name: "产品"
+          url: "/zh/categories/products/"
           weight: 10
-        - identifier: categories
-          name: "核心项目"
-          url: "/zh/categories/"
+        - identifier: engineering
+          name: "工程"
+          url: "/zh/categories/engineering/"
           weight: 20
+        - identifier: growth
+          name: "增长"
+          url: "/zh/categories/growth/"
+          weight: 30
+        - identifier: thoughts
+          name: "思考"
+          url: "/zh/categories/thoughts/"
+          weight: 40
+        - identifier: open-source
+          name: "开源"
+          url: "/zh/categories/open-source/"
+          weight: 50
+        - identifier: about
+          name: "关于"
+          url: "/zh/#about"
+          weight: 60
 
 # 🌟 2. 全局样式与页脚定制
 params:
   env: production
+  description: "Notes on AI products, open source, engineering, and indie development."
+  author: "Vincent"
   defaultTheme: "dark"
   disableThemeToggle: false
+  disableLangToggle: false
+  displayFullLangName: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowCodeCopyButtons: true
   ShowBreadCrumbs: true
 
-  # 隐藏官方的 "Powered by Hugo & PaperMod"
   ShowPoweredBy: false
-
-  # 自定义你的专属页脚（带 indexflowing.com 外链）
-  customFooterText: '© 2025 Vincent • Powered by <a href="https://www.indexflowing.com" target="_blank" style="text-decoration:underline;">IndexFlowing</a>'
+  ShowRssButtonInSectionTermList: true
+  mainSections:
+    - products
 
   socialIcons:
     - name: "github"

@@ -1,9 +1,10 @@
 ---
 date: '2026-09-07T23:12:48+08:00'
 draft: false
-title: 'MandarinClips Learn Real Chinese Through Movie and TV Clips'
-categories: ["MandarinClips"]
-tags: ["Chinese Learning", "Mandarin clip"]
+title: "Learn Real Chinese Through Movie and TV Clips with MandarinClips"
+description: "How searchable movie and TV dialogue helps Mandarin learners understand vocabulary, listening, pronunciation, and context."
+categories: ["Products"]
+tags: ["MandarinClips", "Chinese Learning", "Language Learning"]
 ---
 
 Learning Chinese from a textbook can teach you what a sentence means. But understanding how Chinese is actually spoken is a different challenge.
