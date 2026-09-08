@@ -1,7 +1,7 @@
 ---
 date: '2026-09-07T23:12:48+08:00'
 draft: false
-title: 'MandarinClips Learn Real Chinese Through Movie and TV Clips'
+title: 'MandarinClips: Learn Real Chinese Through Movie and TV Clips'
 categories: ["MandarinClips"]
 tags: ["Chinese Learning", "Mandarin clip"]
 ---

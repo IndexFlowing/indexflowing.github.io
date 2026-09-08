@@ -1,0 +1,12 @@
+{{- if and .IsHome (eq site.Language.Lang "en") }}
+<script>
+    (() => {
+        const browserLanguages = navigator.languages || [navigator.language];
+        const prefersChinese = browserLanguages.some((language) => language.toLowerCase().startsWith("zh"));
+
+        if (prefersChinese) {
+            window.location.replace("{{ "zh/" | relLangURL }}");
+        }
+    })();
+</script>
+{{- end }}
