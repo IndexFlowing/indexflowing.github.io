@@ -5,6 +5,9 @@ title: "The Best Tools for Learning Spoken Chinese in 2026"
 description: "A practical guide to combining courses, dictionaries, flashcards, tutors, and authentic dialogue for spoken Mandarin."
 categories: ["Products"]
 tags: ["MandarinClips", "Chinese Learning", "Language Learning", "Learning Tools"]
+cover:
+  image: "images/articles/spoken-tools-by-goal.svg"
+  alt: "Chinese speaking tools by learning goal"
 ---
 
 **There is no single best tool for learning spoken Mandarin. The right combination depends on whether you need structured lessons, pronunciation practice, real conversations, or more exposure to authentic Chinese.**
@@ -32,6 +35,8 @@ Instead, the best Chinese learning tools solve different parts of the problem.
 Here is how I would divide them.
 
 ## The Best Chinese Learning Tools by Goal
+
+![Chinese speaking tools by learning goal](images/articles/spoken-tools-by-goal.svg)
 
 If you want the short answer:
 
@@ -359,6 +364,8 @@ If you already know Chinese but struggle to understand how words and expressions
 There is no reason to choose only one.
 
 ## A Better Chinese Learning Stack
+
+![Complete spoken Chinese learning stack](images/articles/spoken-learning-stack.svg)
 
 Instead of asking:
 

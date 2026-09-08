@@ -23,6 +23,7 @@ languages:
       label: "English"
       description: "Notes on AI products, open source, engineering, and indie development."
       languageAltTitle: "Switch to English"
+      author: "Sanfeng"
     menu:
       main:
         - identifier: products
@@ -60,6 +61,7 @@ languages:
       description: "记录 AI 产品、开源、工程实践与独立开发。"
       languageAltTitle: "切换到中文"
       DateFormat: "2006年1月2日"
+      author: "张三疯的风"
     menu:
       main:
         - identifier: products

@@ -5,7 +5,12 @@ title: "Learn Real Chinese Through Movie and TV Clips with MandarinClips"
 description: "How searchable movie and TV dialogue helps Mandarin learners understand vocabulary, listening, pronunciation, and context."
 categories: ["Products"]
 tags: ["MandarinClips", "Chinese Learning", "Language Learning"]
+cover:
+  image: "images/articles/searchable-dialogue.webp"
+  alt: "Searchable Chinese dialogue in audiovisual context"
 ---
+
+![Searchable Chinese dialogue in audiovisual context](images/articles/searchable-dialogue.webp)
 
 Learning Chinese from a textbook can teach you what a sentence means. But understanding how Chinese is actually spoken is a different challenge.
 
@@ -91,6 +96,8 @@ and eventually:
 Movies and TV shows provide a natural environment for seeing this difference.
 
 ### MandarinClips Turns Dialogue Into Searchable Learning Material
+
+![From a searched word to usable context](images/articles/word-to-context.svg)
 
 One of the biggest problems with learning Chinese from movies is finding the exact moment you want to study.
 

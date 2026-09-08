@@ -5,6 +5,9 @@ draft: false
 description: "一份适合初学者的普通话学习计划，涵盖发音、词汇、听力、口语、阅读，以及如何建立可持续的中文学习习惯。"
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning", "Learn Mandarin", "Chinese Study", "Chinese for Beginners"]
+cover:
+  image: "images/articles/structured-learning-path.svg"
+  alt: "系统普通话学习路径"
 ---
 
 # 如何更快学会普通话：初学者实用学习计划
@@ -100,6 +103,8 @@ tags: ["Mandarin Learning", "Chinese Learning", "Learn Mandarin", "Chinese Study
 语境能为大脑提供更多可以连接的信息，也让你以后在完全不同的场合遇到这个词时更容易认出来。
 
 ## 选择一门系统课程
+
+![系统普通话学习路径](images/articles/structured-learning-path.svg)
 
 现在有很多优秀的普通话学习应用，但选择太多反而会适得其反。
 
@@ -229,6 +234,8 @@ MandarinClips 让中文学习者搜索词语和表达，并在影视短片中找
 阅读也会强化你通过听力学到的词汇。同一个词出现在不同输入形式中，大脑就有更多机会记住它。
 
 ## 一个简单的 30 分钟日常计划
+
+![三十分钟日常普通话计划](images/articles/thirty-minute-routine.svg)
 
 你不需要每天学习几个小时。如果只有三十分钟，可以这样安排：
 

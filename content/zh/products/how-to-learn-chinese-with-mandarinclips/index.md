@@ -5,6 +5,9 @@ title: "如何用 MandarinClips 学中文：一份循序渐进的实践指南"
 description: "用真实影视对话提升中文词汇、听力、发音与语境理解的一套实用方法。"
 categories: ["Products"]
 tags: ["MandarinClips", "中文学习", "听力练习", "语言学习"]
+cover:
+  image: "images/articles/context-learning-cycle.svg"
+  alt: "MandarinClips 中文语境学习循环"
 ---
 
 学习普通话时，很多人先上课程、背单词、复习闪卡、学习语法和阅读例句。这些方法在起步阶段很有效，但不少学习者迟早会遇到一个挫败感很强的问题：**看得懂中文，母语者真正开口时却听不懂。**
@@ -65,6 +68,8 @@ tags: ["MandarinClips", "中文学习", "听力练习", "语言学习"]
 
 ## 8. 与已有工具配合使用
 
+![语境中文学习循环](images/articles/context-learning-cycle.svg)
+
 MandarinClips 不必取代原有学习体系。课程负责引入语法和词汇；字典解释释义和用法；闪卡帮助长期复习；教师或语伴提供真实开口机会；MandarinClips 则让你看见和听见中文在影视对话中如何真实出现。
 
 一套完整的流程可以是：
@@ -72,6 +77,8 @@ MandarinClips 不必取代原有学习体系。课程负责引入语法和词汇
 > **学习 -> 查阅 -> 复习 -> 搜索 -> 聆听 -> 模仿 -> 使用**
 
 ## 一个 15 分钟练习方案
+
+![十五分钟 MandarinClips 练习](images/articles/fifteen-minute-session.svg)
 
 1. **第 1–3 分钟**：选一个最近学过的表达，例如“原来”。
 2. **第 4–7 分钟**：搜索并看几个片段，先找规律。

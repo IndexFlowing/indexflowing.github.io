@@ -5,6 +5,9 @@ title: "2026 年学习普通话最好的应用：如何选择适合自己的工�
 description: "一份实用的 2026 年普通话学习应用指南，涵盖系统课程、词汇、口语、阅读、听力以及真实中文对话。"
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning Apps", "Learn Mandarin", "Chinese Study", "MandarinClips"]
+cover:
+  image: "images/articles/tool-fit-matrix.svg"
+  alt: "按学习目标选择普通话工具"
 ---
 
 *并不是每款中文学习应用都适合同一类学习者。关键在于根据自己的目标，选择真正能解决当前问题的工具。*
@@ -24,6 +27,8 @@ tags: ["Mandarin Learning", "Chinese Learning Apps", "Learn Mandarin", "Chinese 
 因此，这篇指南不宣布一个适合所有人的冠军，而是介绍 2026 年值得考虑的普通话学习应用，以及每一款工具最擅长解决什么问题。
 
 ## 快速结论：按目标选择普通话应用
+
+![按学习目标选择普通话工具](images/articles/tool-fit-matrix.svg)
 
 | 应用 | 最适合 | 水平 |
 | --- | --- | --- |
@@ -336,6 +341,8 @@ MandarinClips 并不是要取代系统的初级课程，而是补上另一块缺
 ------
 
 # 最好的中文学习组合可能不止一款应用
+
+![互补的普通话学习组合](images/articles/learning-stack.svg)
 
 这也许是最重要的一点：你不需要找到一款包办一切的应用。
 

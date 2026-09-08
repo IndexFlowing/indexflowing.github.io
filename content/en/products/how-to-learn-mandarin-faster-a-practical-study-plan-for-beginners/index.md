@@ -5,6 +5,9 @@ title: "How to Learn Mandarin Faster: A Practical Study Plan for Beginners"
 description: "A practical Mandarin study plan for beginners covering pronunciation, vocabulary, listening, speaking, reading, and how to build a consistent daily Chinese learning routine." 
 categories: ["Products"] 
 tags: ["Learn Mandarin", "Mandarin Study Plan", "Chinese Learning", "Chinese for Beginners", "Mandarin Practice"]
+cover:
+  image: "images/articles/skill-progression.svg"
+  alt: "Mandarin skill progression by learning stage"
 ---
 
 *You don't need to study Chinese all day. You need a learning system that makes the right kind of practice happen every day.*
@@ -48,6 +51,8 @@ A better question is:
 That change in perspective makes building a study plan much easier.
 
 # The 5 Skills You Need to Develop
+
+![Mandarin skill progression by learning stage](images/articles/skill-progression.svg)
 
 A balanced Mandarin routine should eventually include five major areas:
 
@@ -236,6 +241,8 @@ The goal isn't to understand an entire movie.
 The goal is to connect the Chinese you have studied with Chinese that people actually say in context.
 
 # A Simple 30-Minute Mandarin Routine
+
+![Thirty-minute Mandarin study routine](images/articles/thirty-minute-routine.svg)
 
 You don't need several hours every day to start making progress.
 

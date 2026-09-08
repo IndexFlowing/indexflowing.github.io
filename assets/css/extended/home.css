@@ -16,6 +16,8 @@
 .project-card span, .read-more { color: var(--primary); font-size: .9rem; font-weight: 600; }
 .latest-posts { border-top: 1px solid var(--border); }
 .latest-post { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+.latest-post .entry-cover { margin-bottom: 1rem; }
+.latest-post .entry-cover img { max-height: 220px; object-fit: cover; }
 .latest-post time { color: var(--secondary); font-size: .85rem; }
 .latest-post h3 { margin: .35rem 0 .6rem; font-size: 1.2rem; }
 .post-taxonomy { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: .75rem; }

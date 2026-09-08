@@ -5,6 +5,9 @@ title: "如何更快学会普通话：初学者实用学习计划"
 description: "一份适合初学者的普通话学习计划，涵盖发音、词汇、听力、口语、阅读，以及如何建立稳定的每日中文学习习惯。"
 categories: ["Products"]
 tags: ["Learn Mandarin", "Mandarin Study Plan", "Chinese Learning", "Chinese for Beginners", "Mandarin Practice"]
+cover:
+  image: "images/articles/skill-progression.svg"
+  alt: "普通话学习能力进阶"
 ---
 
 *你不需要整天学习中文，而需要一套能让正确练习每天发生的学习系统。*
@@ -40,6 +43,8 @@ tags: ["Learn Mandarin", "Mandarin Study Plan", "Chinese Learning", "Chinese for
 换个角度，学习计划就容易建立多了。
 
 # 你需要培养的 5 项能力
+
+![普通话学习能力进阶](images/articles/skill-progression.svg)
 
 平衡的普通话学习计划最终应该包括五个主要方面：
 
@@ -156,6 +161,8 @@ tags: ["Learn Mandarin", "Mandarin Study Plan", "Chinese Learning", "Chinese for
 借助 MandarinClips，你可以搜索中文词语或表达，查看它们如何出现在影视对话中。目标不是听懂整部电影，而是把学过的中文和人们实际说出来的中文连接起来。
 
 # 一个简单的 30 分钟普通话计划
+
+![三十分钟普通话学习计划](images/articles/thirty-minute-routine.svg)
 
 你不需要每天学习几个小时。如果有 30 分钟，可以这样安排：
 

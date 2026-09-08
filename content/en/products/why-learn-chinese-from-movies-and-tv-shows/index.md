@@ -5,7 +5,12 @@ title: "Why Learn Chinese from Movies and TV Shows?"
 description: "How authentic Chinese dialogue can help learners develop listening skills, contextual understanding, and conversational intuition."
 categories: ["Products"]
 tags: ["MandarinClips", "Chinese Learning", "Listening Practice", "Movies and TV"]
+cover:
+  image: "images/articles/context-layers.webp"
+  alt: "Layers of context in authentic Chinese dialogue"
 ---
+
+![Layers of context in authentic Chinese dialogue](images/articles/context-layers.webp)
 
 **Textbooks can teach you the rules of Mandarin. Real dialogue teaches you what those rules sound like in everyday life.**
 
@@ -495,6 +500,8 @@ For example:
 The important thing is to connect these stages instead of treating vocabulary as something that exists only inside a flashcard.
 
 ## A Simple Method for Learning Chinese From Movies
+
+![Focused dialogue learning cycle](images/articles/focused-dialogue-loop.svg)
 
 If you want to try this approach, you don't need to redesign your entire study routine.
 

@@ -5,6 +5,9 @@ title: "How to Learn Chinese with MandarinClips: A Step-by-Step Guide"
 description: "A practical method for using real movie and TV dialogue to improve Mandarin vocabulary, listening, pronunciation, and understanding."
 categories: ["Products"]
 tags: ["MandarinClips", "Chinese Learning", "Listening Practice", "Language Learning"]
+cover:
+  image: "images/articles/context-learning-cycle.svg"
+  alt: "The MandarinClips context learning cycle"
 ---
 
 # How to Learn Chinese With MandarinClips: A Step-by-Step Guide
@@ -347,6 +350,8 @@ on a flashcard by itself.
 
 ## 12. Use MandarinClips Alongside Your Existing Study Tools
 
+![Context-based Chinese learning cycle](images/articles/context-learning-cycle.svg)
+
 MandarinClips doesn't need to replace your existing Chinese learning system.
 
 In fact, it can work better as one part of a larger routine.
@@ -372,6 +377,8 @@ A useful Chinese learning workflow might look like this:
 MandarinClips fits into the middle of that process.
 
 ## A 15-Minute MandarinClips Practice Routine
+
+![Fifteen-minute MandarinClips practice session](images/articles/fifteen-minute-session.svg)
 
 You don't need to spend an hour watching movies to practice this way.
 

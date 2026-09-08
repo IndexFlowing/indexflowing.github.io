@@ -5,7 +5,12 @@ title: "为什么电影和电视剧是学习中文的好材料？"
 description: "从真实对话中学习语境、听力、口语表达和中文会话直觉。"
 categories: ["Products"]
 tags: ["MandarinClips", "中文学习", "听力练习", "影视学习"]
+cover:
+  image: "images/articles/context-layers.webp"
+  alt: "真实中文对话的语境层次"
 ---
+
+![真实中文对话的语境层次](images/articles/context-layers.webp)
 
 **教材可以教会你普通话的规则，真实对话则让你听见这些规则在日常生活中是什么样子。**
 
@@ -26,6 +31,8 @@ tags: ["MandarinClips", "中文学习", "听力练习", "影视学习"]
 词条没有改变，语境改变了。因此，仅把中文词和英文翻译列成清单有局限。真正需要的是在不同情况中反复遇到同一个词，形成它适合出现在哪里的直觉。
 
 ## 影视片段提供了字典难以给出的信息
+
+![聚焦对话学习循环](images/articles/focused-dialogue-loop.svg)
 
 字典能解释意思，教材能展示句子结构，闪卡能帮助记忆；但它们不一定能呈现一句话被一个人对另一个人说出来时的真实声音。
 

@@ -5,6 +5,9 @@ title: "The Best Apps for Learning Mandarin Chinese in 2026"
 description: "A practical guide to the best Mandarin Chinese learning apps in 2026, covering structured courses, vocabulary, speaking, reading, listening, and authentic Chinese dialogue."
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning Apps", "Learn Mandarin", "Chinese Study", "MandarinClips"]
+cover:
+  image: "images/articles/tool-fit-matrix.svg"
+  alt: "Mandarin learning tools by learner goal"
 ---
 
 *Not every Chinese learning app is designed for the same kind of learner. Here is how to choose the right one for your goals.*
@@ -24,6 +27,8 @@ A complete beginner needs something different from an intermediate learner who a
 So instead of declaring one app the universal winner, this guide looks at the strongest Mandarin learning apps in 2026 and explains what each one is actually good at.
 
 ## Quick Answer: The Best Mandarin Apps for Different Goals
+
+![Mandarin learning tools by learner goal](images/articles/tool-fit-matrix.svg)
 
 | App               | Best for                               | Level                 |
 | ----------------- | -------------------------------------- | --------------------- |
@@ -418,6 +423,8 @@ Search for words and expressions and see how they appear in Chinese movie and TV
 ------
 
 # The Best Chinese Learning Setup May Use More Than One App
+
+![Complementary Mandarin learning stack](images/articles/learning-stack.svg)
 
 This is probably the most important lesson.
 

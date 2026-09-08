@@ -5,6 +5,9 @@ draft: false
 description: "A practical Mandarin study plan for beginners covering pronunciation, vocabulary, listening, speaking, reading, and how to build a sustainable Chinese learning routine."
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning", "Learn Mandarin", "Chinese Study", "Chinese for Beginners"]
+cover:
+  image: "images/articles/structured-learning-path.svg"
+  alt: "Structured Mandarin learning path"
 ---
 
 # How to Learn Mandarin Faster: A Practical Study Plan for Beginners
@@ -118,6 +121,8 @@ Context gives your brain more information to connect with the word.
 It also makes it easier to recognize the word later when someone uses it in a completely different situation.
 
 ## Choose One Structured Course
+
+![Structured Mandarin learning path](images/articles/structured-learning-path.svg)
 
 There are now many excellent Mandarin learning apps.
 
@@ -343,6 +348,8 @@ Reading also reinforces vocabulary that you have learned through listening.
 The same word appearing in different forms of input gives your brain more opportunities to remember it.
 
 ## A Simple 30-Minute Daily Mandarin Routine
+
+![Thirty-minute daily Mandarin routine](images/articles/thirty-minute-routine.svg)
 
 You don't need to study for several hours a day to make progress.
 
