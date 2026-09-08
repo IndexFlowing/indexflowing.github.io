@@ -1,5 +1,5 @@
 baseURL: "https://indexflowing.github.io/"
-title: "Vincent's Tech Lab"
+title: "Sanfeng's Tech Lab"
 theme: "PaperMod"
 
 enableRobotsTXT: true
@@ -15,11 +15,11 @@ languages:
     languageName: "English"
     weight: 1
     contentDir: "content/en"
-    title: "Vincent's Tech Lab"
+    title: "Sanfeng's Tech Lab"
     params:
       profileMode:
         enabled: true
-        title: "Hi, I'm Vincent 👋"
+        title: "Hi, I'm Sanfeng 👋"
         subtitle: "Full-stack engineer & indie builder. Building high-performance systems with Rust & Next.js."
         buttons:
           - name: "MandarinClips"
@@ -47,11 +47,11 @@ languages:
     languageName: "简体中文"
     weight: 2
     contentDir: "content/zh"
-    title: "文森特的工程实验室"
+    title: "张三疯的风的工程实验室"
     params:
       profileMode:
         enabled: true
-        title: "你好，我是 Vincent 👋"
+        title: "你好，我是 张三疯的风 👋"
         subtitle: "全栈工程师 & 独立开发者。专注于 Rust、Next.js 与高性能出海系统。"
         buttons:
           - name: "MandarinClips 视频切片"
@@ -85,7 +85,7 @@ params:
   ShowPoweredBy: false
 
   # 自定义你的专属页脚（带 indexflowing.com 外链）
-  customFooterText: '© 2025 Vincent • Powered by <a href="https://www.indexflowing.com" target="_blank" style="text-decoration:underline;">IndexFlowing</a>'
+  customFooterText: '© 2025 Sanfeng • Powered by <a href="https://www.indexflowing.com" target="_blank" style="text-decoration:underline;">IndexFlowing</a>'
 
   socialIcons:
     - name: "github"
