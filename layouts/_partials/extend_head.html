@@ -1,0 +1,25 @@
+{{- if .IsHome }}
+<script>
+  (() => {
+    const preferenceKey = "indexflowing-language";
+    const savedLanguage = localStorage.getItem(preferenceKey);
+
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll("[data-language-preference]").forEach((link) => {
+        link.addEventListener("click", () => localStorage.setItem(preferenceKey, link.dataset.languagePreference));
+      });
+    });
+
+    if (savedLanguage || "{{ site.Language.Lang }}" !== "en") {
+      return;
+    }
+
+    const browserLanguages = navigator.languages || [navigator.language];
+    const prefersChinese = browserLanguages.some((language) => language.toLowerCase().startsWith("zh"));
+
+    if (prefersChinese) {
+      window.location.replace("{{ "zh/" | relLangURL }}");
+    }
+  })();
+</script>
+{{- end }}
