@@ -18,10 +18,11 @@
         <span class="nav-sep">|</span>
         <ul class="lang-menu">
           {{- range . }}
+          {{- $langName := (or .Language.LanguageName .Language.Params.languageName .Lang | title) }}
           <li>
             <a href="{{ .RelPermalink }}" data-language-preference="{{ .Lang }}" 
-               title="{{ .Language.Params.languageAltTitle | default .Language.Label | default (.Lang | title) }}">
-              {{- .Language.Label | default (.Lang | title) -}}
+               title="{{ .Language.Params.languageAltTitle | default $langName }}">
+              {{- $langName -}}
             </a>
           </li>
           {{- end }}
