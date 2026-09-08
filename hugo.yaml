@@ -1,5 +1,5 @@
 baseURL: "https://indexflowing.github.io/"
-title: "Vincent's Tech Lab"
+title: "Sanfeng's Tech Lab"
 theme: "PaperMod"
 
 enableRobotsTXT: true
@@ -18,7 +18,7 @@ languages:
     label: "English"
     weight: 1
     contentDir: "content/en"
-    title: "Vincent's Tech Lab"
+    title: "Sanfeng's Tech Lab"
     params:
       description: "Notes on AI products, open source, engineering, and indie development."
       languageAltTitle: "Switch to English"
@@ -53,7 +53,7 @@ languages:
     label: "中文"
     weight: 2
     contentDir: "content/zh"
-    title: "文森特的工程实验室"
+    title: "张三疯的风的工程实验室"
     params:
       description: "记录 AI 产品、开源、工程实践与独立开发。"
       languageAltTitle: "切换到中文"
@@ -89,7 +89,7 @@ languages:
 params:
   env: production
   description: "Notes on AI products, open source, engineering, and indie development."
-  author: "Vincent"
+  author: "Sanfeng"
   defaultTheme: "dark"
   disableThemeToggle: false
   disableLangToggle: false
