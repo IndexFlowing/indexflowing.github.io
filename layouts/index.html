@@ -1,64 +1,54 @@
 {{- define "main" }}
-{{- with site.Params.homeInfoParams }}
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    <div class="entry-content md-content">
-        {{ $opts := dict "display" "block" }}
-        {{ .Content | $.Page.RenderString $opts }}
-    </div>
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
-    </footer>
-</article>
-{{- end }}
+{{- $isChinese := eq site.Language.Lang "zh" }}
+{{- $posts := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $posts = where $posts "Params.hiddenInHomeList" "!=" "true" }}
+<section class="home-hero">
+  <p class="eyebrow">{{ if $isChinese }}独立开发者 / AI / 开源{{ else }}INDEPENDENT DEVELOPER / AI / OPEN SOURCE{{ end }}</p>
+  <h1>{{ if $isChinese }}构建产品，公开分享过程。{{ else }}Building products and sharing the work.{{ end }}</h1>
+  <p>{{ if $isChinese }}记录一个独立开发者如何利用 AI 构建产品、开源项目和探索互联网增长。{{ else }}Building AI products, open source tools, and sharing lessons from indie development.{{ end }}</p>
+  <div class="hero-actions">
+    <a class="button" href="#projects">{{ if $isChinese }}查看项目{{ else }}Explore projects{{ end }}</a>
+    <a class="button secondary" href="#latest-posts">{{ if $isChinese }}阅读文章{{ else }}Read the blog{{ end }}</a>
+  </div>
+</section>
 
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
-{{- if not $pages }}
-    {{- $englishSite := index (where site.Sites "Language.Lang" "en") 0 }}
-    {{- $pages = where $englishSite.RegularPages "Type" "in" site.Params.mainSections }}
-    {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
-{{- end }}
-{{- $paginator := .Paginate $pages }}
+<section id="projects" class="home-section">
+  <div class="section-heading"><p class="eyebrow">{{ if $isChinese }}正在构建{{ else }}BUILDING{{ end }}</p><h2>{{ if $isChinese }}项目实验室{{ else }}Projects{{ end }}</h2></div>
+  <div class="project-grid">
+    <a class="project-card" href="https://mandarinclips.com" rel="noopener" target="_blank"><h3>MandarinClips</h3><p>{{ if $isChinese }}通过影视片段学习中文。{{ else }}Chinese learning through movies.{{ end }}</p><span>{{ if $isChinese }}访问产品 ->{{ else }}Visit product ->{{ end }}</span></a>
+    <a class="project-card" href="https://indexflowing.com" rel="noopener" target="_blank"><h3>IndexFlow</h3><p>{{ if $isChinese }}开源 SEO/GEO 索引基础设施。{{ else }}Open source SEO/GEO indexing infrastructure.{{ end }}</p><span>{{ if $isChinese }}访问产品 ->{{ else }}Visit product ->{{ end }}</span></a>
+    <a class="project-card" href="https://github.com/IndexFlowing/AgentBridge" rel="noopener" target="_blank"><h3>AgentBridge</h3><p>{{ if $isChinese }}面向 AI 编程代理的 MCP 桥接工具。{{ else }}MCP bridge for AI coding agents.{{ end }}</p><span>{{ if $isChinese }}查看 GitHub ->{{ else }}View on GitHub ->{{ end }}</span></a>
+  </div>
+</section>
 
-{{- range $paginator.Pages }}
-<article class="post-entry">
-    {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
-    {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
-    <header class="entry-header">
-        <h2 class="entry-hint-parent">
-            {{ .Title }}
-            {{- if .Draft }}
-            <span class="entry-hint" title="Draft">Draft</span>
-            {{- end }}
-        </h2>
-    </header>
-    {{- if ne (.Param "hideSummary") true }}
-    <div class="entry-content">
-        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-    </div>
-    {{- end }}
-    {{- if not (.Param "hideMeta") }}
-    <footer class="entry-footer">
-        {{- partial "post_meta.html" . }}
-    </footer>
-    {{- end }}
-    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</article>
-{{- end }}
+<section id="latest-posts" class="home-section">
+  <div class="section-heading"><p class="eyebrow">{{ if $isChinese }}最新发布{{ else }}LATEST{{ end }}</p><h2>{{ if $isChinese }}最新文章{{ else }}Latest posts{{ end }}</h2></div>
+  <div class="latest-posts">
+  {{ range first 5 $posts.ByDate.Reverse }}
+    <article class="latest-post">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (site.Params.DateFormat | default "Jan 2, 2006") }}</time>
+      <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+      <div class="post-taxonomy">{{ range .GetTerms "categories" }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}{{ range .GetTerms "tags" }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}</div>
+      <a class="read-more" href="{{ .RelPermalink }}">{{ if $isChinese }}阅读全文 ->{{ else }}Read article ->{{ end }}</a>
+    </article>
+  {{ else }}
+    <p>{{ if $isChinese }}新文章即将发布。{{ else }}New posts are on the way.{{ end }}</p>
+  {{ end }}
+  </div>
+</section>
 
-{{- if gt $paginator.TotalPages 1 }}
-<footer class="page-footer">
-    <nav class="pagination">
-        {{- if $paginator.HasPrev }}
-        <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">«&nbsp;{{ i18n "prev_page" }}&nbsp;</a>
-        {{- end }}
-        {{- if $paginator.HasNext }}
-        <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }}&nbsp;»</a>
-        {{- end }}
-    </nav>
-</footer>
-{{- end }}
+<section class="home-section">
+  <div class="section-heading"><p class="eyebrow">{{ if $isChinese }}内容体系{{ else }}TOPICS{{ end }}</p><h2>{{ if $isChinese }}探索主题{{ else }}Explore topics{{ end }}</h2></div>
+  <nav class="topic-grid" aria-label="{{ if $isChinese }}文章主题{{ else }}Article topics{{ end }}">
+    {{ range slice (dict "slug" "products" "en" "Products" "zh" "产品") (dict "slug" "engineering" "en" "Engineering" "zh" "工程") (dict "slug" "growth" "en" "Growth" "zh" "增长") (dict "slug" "thoughts" "en" "Thoughts" "zh" "思考") (dict "slug" "open-source" "en" "Open Source" "zh" "开源") }}
+      <a href="{{ printf "/categories/%s/" .slug | relLangURL }}">{{ if $isChinese }}{{ .zh }}{{ else }}{{ .en }}{{ end }} <span>-></span></a>
+    {{ end }}
+  </nav>
+</section>
+
+<section id="about" class="home-section about-section">
+  <div class="section-heading"><p class="eyebrow">{{ if $isChinese }}关于{{ else }}ABOUT{{ end }}</p><h2>{{ if $isChinese }}Vincent 的开发者实验室{{ else }}Vincent's developer lab{{ end }}</h2></div>
+  <p>{{ if $isChinese }}这里是产品实验、工程实践、开源工作和独立开发复盘的长期内容中心。{{ else }}A long-term home for product experiments, engineering practice, open source work, and notes from building independently.{{ end }}</p>
+  <a class="read-more" href="https://github.com/indexflowing" rel="noopener" target="_blank">GitHub -></a>
+</section>
 {{- end }}
