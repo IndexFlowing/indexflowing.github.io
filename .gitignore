@@ -117,3 +117,7 @@ hugo.local.*
 .cache/
 .tmp/
 temp/
+
+
+generate-code-xml.cmd
+indexflowing.github.io.xml
