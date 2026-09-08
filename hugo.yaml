@@ -9,61 +9,100 @@ buildFuture: false
 # 🌟 1. 开启中英双语国际化 (i18n)
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
+taxonomies:
+  category: categories
+  tag: tags
 
 languages:
   en:
-    languageName: "English"
+    label: "English"
     weight: 1
+    contentDir: "content/en"
     title: "Vincent's Tech Lab"
     params:
-      homeInfoParams:
-        Title: "Building useful things for the web."
-        Content: "Notes on products, engineering, and the systems behind them."
+      description: "Notes on AI products, open source, engineering, and indie development."
+      languageAltTitle: "Switch to English"
     menu:
       main:
-        - identifier: posts
-          name: "Posts"
-          url: "/posts/"
+        - identifier: products
+          name: "Products"
+          url: "/categories/products/"
           weight: 10
-        - identifier: categories
-          name: "Topics"
-          url: "/categories/"
+        - identifier: engineering
+          name: "Engineering"
+          url: "/categories/engineering/"
           weight: 20
-        - identifier: tags
-          name: "Tags"
-          url: "/tags/"
+        - identifier: growth
+          name: "Growth"
+          url: "/categories/growth/"
           weight: 30
+        - identifier: thoughts
+          name: "Thoughts"
+          url: "/categories/thoughts/"
+          weight: 40
+        - identifier: open-source
+          name: "Open Source"
+          url: "/categories/open-source/"
+          weight: 50
+        - identifier: about
+          name: "About"
+          url: "/#about"
+          weight: 60
 
   zh:
-    languageName: "简体中文"
+    label: "中文"
     weight: 2
+    contentDir: "content/zh"
     title: "文森特的工程实验室"
     params:
-      homeInfoParams:
-        Title: "构建真正有用的 Web 产品。"
-        Content: "记录产品、工程实践，以及支撑它们运转的系统。"
+      description: "记录 AI 产品、开源、工程实践与独立开发。"
+      languageAltTitle: "切换到中文"
+      DateFormat: "2006年1月2日"
     menu:
       main:
-        - identifier: posts
-          name: "文章"
-          url: "/zh/posts/"
+        - identifier: products
+          name: "产品"
+          url: "/zh/categories/products/"
           weight: 10
-        - identifier: categories
-          name: "核心项目"
-          url: "/zh/categories/"
+        - identifier: engineering
+          name: "工程"
+          url: "/zh/categories/engineering/"
           weight: 20
+        - identifier: growth
+          name: "增长"
+          url: "/zh/categories/growth/"
+          weight: 30
+        - identifier: thoughts
+          name: "思考"
+          url: "/zh/categories/thoughts/"
+          weight: 40
+        - identifier: open-source
+          name: "开源"
+          url: "/zh/categories/open-source/"
+          weight: 50
+        - identifier: about
+          name: "关于"
+          url: "/zh/#about"
+          weight: 60
 
 # 🌟 2. 全局样式与页脚定制
 params:
   env: production
+  description: "Notes on AI products, open source, engineering, and indie development."
+  author: "Vincent"
   defaultTheme: "dark"
   disableThemeToggle: false
+  disableLangToggle: false
+  displayFullLangName: true
   ShowReadingTime: true
   ShowShareButtons: true
   ShowCodeCopyButtons: true
   ShowBreadCrumbs: true
+
+  ShowPoweredBy: false
+  ShowRssButtonInSectionTermList: true
   mainSections:
-    - posts
+    - products
 
   socialIcons:
     - name: "github"
