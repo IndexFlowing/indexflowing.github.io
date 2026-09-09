@@ -3,35 +3,32 @@ name: 自动通知n8n
 on:
   push:
     branches:
-      - main # 如果你的主分支名称是 master，请改成 master
+      - main
     paths:
       - 'content/zh/**/index.md'
 
 jobs:
-  通知n8n处理文章:
+  notify-n8n:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2 # 获取最近两次提交以便对比差异
+          fetch-depth: 2
 
       - name: 提取变动的中文文章
         id: get_articles
         run: |
-          # 提取属于 content/zh/ 且以 index.md 结尾的新增(A)或修改(M)文件
           DIFF=$(git diff-tree -r --no-commit-id --name-status -r ${{ github.sha }} | grep -E '^[AM].*content/zh/.*/index\.md$' | cut -f2- || true)
           echo "检测到的中文文章变更："
           echo "$DIFF"
-          
-          # 转换为 JSON 数组
-          JSON_FILES=$(echo "$DIFF" | jq -R -s -c 'split("\n")[:-1]')
+
+          JSON_FILES=$(echo "$DIFF" | jq -R -s -c 'split("\n") | map(select(length > 0))')
           echo "files=$JSON_FILES" >> $GITHUB_OUTPUT
 
       - name: 发送请求到n8n
         if: steps.get_articles.outputs.files != '[]' && steps.get_articles.outputs.files != ''
         run: |
-          # 先使用 webhook-test 联调，等全流程跑通后把 -test 去掉切换为生产地址
           curl -X POST "https://n8n.indexflowing.com/webhook-test/article-push" \
             -H "Content-Type: application/json" \
             -d '{
