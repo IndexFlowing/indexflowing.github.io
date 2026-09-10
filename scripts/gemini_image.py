@@ -22,6 +22,8 @@ DEFAULT_OUTPUT = Path("static/images/gemini-test.webp")
 DEFAULT_MODEL = "gemini-3.1-flash-image"
 DEFAULT_PROXY = "http://127.0.0.1:7897"
 DEFAULT_LOCATION = "global"
+DEFAULT_ASPECT_RATIO = "16:9"
+FINAL_BANNER_RATIO = 5 / 2
 
 
 def parse_args() -> argparse.Namespace:
@@ -43,6 +45,11 @@ def parse_args() -> argparse.Namespace:
         help=f"Gemini model to use (default: {DEFAULT_MODEL})",
     )
     parser.add_argument(
+        "--aspect-ratio",
+        default=DEFAULT_ASPECT_RATIO,
+        help=f"Requested image aspect ratio (default: {DEFAULT_ASPECT_RATIO})",
+    )
+    parser.add_argument(
         "--check-config",
         action="store_true",
         help="Validate Vertex AI configuration and ADC without making a network request",
@@ -62,6 +69,14 @@ def save_image(data: bytes, mime_type: str | None, output: Path) -> Path:
             from PIL import Image
 
             with Image.open(BytesIO(data)) as image:
+                if output.stem.endswith("-banner"):
+                    width, height = image.size
+                    target_width = round(height * FINAL_BANNER_RATIO)
+                    if width >= target_width:
+                        left = (width - target_width) // 2
+                        image = image.crop((left, 0, left + target_width, height))
+                    else:
+                        image = image.resize((target_width, height))
                 image.save(output, format="WEBP")
             return output
         except ImportError:
@@ -120,7 +135,7 @@ def check_config() -> bool:
     return True
 
 
-def generate_image(prompt: str, output: Path, model: str) -> Path:
+def generate_image(prompt: str, output: Path, model: str, aspect_ratio: str = DEFAULT_ASPECT_RATIO) -> Path:
     try:
         from google import genai
         from google.genai.types import GenerateContentConfig, ImageConfig, Modality
@@ -148,7 +163,7 @@ def generate_image(prompt: str, output: Path, model: str) -> Path:
             contents=prompt,
             config=GenerateContentConfig(
                 response_modalities=[Modality.TEXT, Modality.IMAGE],
-                image_config=ImageConfig(aspect_ratio="16:9", image_size="1K"),
+                image_config=ImageConfig(aspect_ratio=aspect_ratio, image_size="1K"),
             ),
         )
     except Exception as error:
@@ -189,7 +204,7 @@ def main() -> int:
         return 0 if check_config() else 1
 
     try:
-        output = generate_image(args.prompt, args.output, args.model)
+        output = generate_image(args.prompt, args.output, args.model, args.aspect_ratio)
     except Exception as error:
         print(f"Image generation failed: {error}")
         return 1
