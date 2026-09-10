@@ -6,7 +6,7 @@ description: "A practical method for using real movie and TV dialogue to improve
 categories: ["Products"]
 tags: ["MandarinClips", "Chinese Learning", "Listening Practice", "Language Learning"]
 cover:
-  image: "images/articles/context-learning-cycle.svg"
+  image: "https://images.indexflowing.com/context-learning-cycle.webp"
   alt: "The MandarinClips context learning cycle"
 ---
 
@@ -350,7 +350,7 @@ on a flashcard by itself.
 
 ## 12. Use MandarinClips Alongside Your Existing Study Tools
 
-![Context-based Chinese learning cycle](images/articles/context-learning-cycle.svg)
+![Context-based Chinese learning cycle](https://images.indexflowing.com/context-learning-cycle.webp)
 
 MandarinClips doesn't need to replace your existing Chinese learning system.
 
@@ -378,7 +378,7 @@ MandarinClips fits into the middle of that process.
 
 ## A 15-Minute MandarinClips Practice Routine
 
-![Fifteen-minute MandarinClips practice session](images/articles/fifteen-minute-session.svg)
+![Fifteen-minute MandarinClips practice session](https://images.indexflowing.com/fifteen-minute-session.webp)
 
 You don't need to spend an hour watching movies to practice this way.
 

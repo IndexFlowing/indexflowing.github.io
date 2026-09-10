@@ -6,7 +6,7 @@ description: "按目标选择课程、词典、闪卡、语伴、教师和真实
 categories: ["Products"]
 tags: ["MandarinClips", "中文学习", "语言学习", "学习工具"]
 cover:
-  image: "images/articles/spoken-tools-by-goal.svg"
+  image: "https://images.indexflowing.com/spoken-tools-by-goal.webp"
   alt: "按目标选择中文口语工具"
 ---
 
@@ -18,7 +18,7 @@ cover:
 
 ## 按目标选择工具
 
-![按目标选择中文口语工具](images/articles/spoken-tools-by-goal.svg)
+![按目标选择中文口语工具](https://images.indexflowing.com/spoken-tools-by-goal.webp)
 
 | 目标 | 可用工具 |
 | --- | --- |
@@ -80,7 +80,7 @@ MandarinClips 适合自然听力、会话表达、影视对话、语境词汇，
 
 ## 不必选择唯一工具，应该构建学习组合
 
-![完整中文口语学习组合](images/articles/spoken-learning-stack.svg)
+![完整中文口语学习组合](https://images.indexflowing.com/spoken-learning-stack.webp)
 
 更好的问题不是“哪个中文学习应用最好”，而是“哪些工具应当一起用”。一个实用组合可以这样安排：
 

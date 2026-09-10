@@ -6,7 +6,7 @@ description: "A practical guide to combining courses, dictionaries, flashcards, 
 categories: ["Products"]
 tags: ["MandarinClips", "Chinese Learning", "Language Learning", "Learning Tools"]
 cover:
-  image: "images/articles/spoken-tools-by-goal.svg"
+  image: "https://images.indexflowing.com/spoken-tools-by-goal.webp"
   alt: "Chinese speaking tools by learning goal"
 ---
 
@@ -36,7 +36,7 @@ Here is how I would divide them.
 
 ## The Best Chinese Learning Tools by Goal
 
-![Chinese speaking tools by learning goal](images/articles/spoken-tools-by-goal.svg)
+![Chinese speaking tools by learning goal](https://images.indexflowing.com/spoken-tools-by-goal.webp)
 
 If you want the short answer:
 
@@ -365,7 +365,7 @@ There is no reason to choose only one.
 
 ## A Better Chinese Learning Stack
 
-![Complete spoken Chinese learning stack](images/articles/spoken-learning-stack.svg)
+![Complete spoken Chinese learning stack](https://images.indexflowing.com/spoken-learning-stack.webp)
 
 Instead of asking:
 

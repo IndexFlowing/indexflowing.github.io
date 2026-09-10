@@ -8,7 +8,7 @@ description: "A practical Mandarin study plan for beginners covering pronunciati
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning", "Learn Mandarin", "Chinese Study", "Chinese for Beginners"]
 cover:
-  image: "images/articles/structured-learning-path.svg"
+  image: "https://images.indexflowing.com/structured-learning-path.webp"
   alt: "Structured Mandarin learning path"
 ---
 
@@ -124,7 +124,7 @@ It also makes it easier to recognize the word later when someone uses it in a co
 
 ## Choose One Structured Course
 
-![Structured Mandarin learning path](images/articles/structured-learning-path.svg)
+![Structured Mandarin learning path](https://images.indexflowing.com/structured-learning-path.webp)
 
 There are now many excellent Mandarin learning apps.
 
@@ -351,7 +351,7 @@ The same word appearing in different forms of input gives your brain more opport
 
 ## A Simple 30-Minute Daily Mandarin Routine
 
-![Thirty-minute daily Mandarin routine](images/articles/thirty-minute-routine.svg)
+![Thirty-minute daily Mandarin routine](https://images.indexflowing.com/thirty-minute-routine.webp)
 
 You don't need to study for several hours a day to make progress.
 

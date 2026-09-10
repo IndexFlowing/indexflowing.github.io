@@ -6,11 +6,11 @@ description: "通过可搜索的影视对话，在真实语境中理解中文词
 categories: ["Products"]
 tags: ["MandarinClips", "中文学习", "语言学习"]
 cover:
-  image: "images/articles/searchable-dialogue.webp"
+  image: "https://images.indexflowing.com/searchable-dialogue.webp"
   alt: "可搜索的真实中文对话"
 ---
 
-![可搜索的真实中文对话](images/articles/searchable-dialogue.webp)
+![可搜索的真实中文对话](https://images.indexflowing.com/searchable-dialogue.webp)
 
 教材能帮助我们理解一句中文的意思，但要听懂人们实际怎么说中文，又是另一回事。
 
@@ -46,7 +46,7 @@ MandarinClips 是面向中文学习者的搜索与学习工具，思路很简单
 
 ## 把对话变成可搜索的学习材料
 
-![从搜索词到可用语境](images/articles/word-to-context.svg)
+![从搜索词到可用语境](https://images.indexflowing.com/word-to-context.webp)
 
 用电影学习中文的一大难点，是找到你想研究的那个瞬间。假如你想学习“原来”“好像”“随便”“其实”“算了”或“赶紧”，可以从头到尾看一部电影，等待这些词出现，但效率并不高。
 

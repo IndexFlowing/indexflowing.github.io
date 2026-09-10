@@ -6,7 +6,7 @@ description: "一份实用的 2026 年普通话学习应用指南，涵盖系统
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning Apps", "Learn Mandarin", "Chinese Study", "MandarinClips"]
 cover:
-  image: "images/articles/tool-fit-matrix.svg"
+  image: "https://images.indexflowing.com/tool-fit-matrix.webp"
   alt: "按学习目标选择普通话工具"
 ---
 
@@ -28,7 +28,7 @@ cover:
 
 ## 快速结论：按目标选择普通话应用
 
-![按学习目标选择普通话工具](images/articles/tool-fit-matrix.svg)
+![按学习目标选择普通话工具](https://images.indexflowing.com/tool-fit-matrix.webp)
 
 | 应用 | 最适合 | 水平 |
 | --- | --- | --- |
@@ -342,7 +342,7 @@ MandarinClips 并不是要取代系统的初级课程，而是补上另一块缺
 
 # 最好的中文学习组合可能不止一款应用
 
-![互补的普通话学习组合](images/articles/learning-stack.svg)
+![互补的普通话学习组合](https://images.indexflowing.com/learning-stack.webp)
 
 这也许是最重要的一点：你不需要找到一款包办一切的应用。
 

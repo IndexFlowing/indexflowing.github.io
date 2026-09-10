@@ -6,11 +6,11 @@ description: "从真实对话中学习语境、听力、口语表达和中文会
 categories: ["Products"]
 tags: ["MandarinClips", "中文学习", "听力练习", "影视学习"]
 cover:
-  image: "images/articles/context-layers.webp"
+  image: "https://images.indexflowing.com/context-layers.webp"
   alt: "真实中文对话的语境层次"
 ---
 
-![真实中文对话的语境层次](images/articles/context-layers.webp)
+![真实中文对话的语境层次](https://images.indexflowing.com/context-layers.webp)
 
 **教材可以教会你普通话的规则，真实对话则让你听见这些规则在日常生活中是什么样子。**
 
@@ -32,7 +32,7 @@ cover:
 
 ## 影视片段提供了字典难以给出的信息
 
-![聚焦对话学习循环](images/articles/focused-dialogue-loop.svg)
+![聚焦对话学习循环](https://images.indexflowing.com/focused-dialogue-loop.webp)
 
 字典能解释意思，教材能展示句子结构，闪卡能帮助记忆；但它们不一定能呈现一句话被一个人对另一个人说出来时的真实声音。
 

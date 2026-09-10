@@ -6,11 +6,11 @@ description: "How authentic Chinese dialogue can help learners develop listening
 categories: ["Products"]
 tags: ["MandarinClips", "Chinese Learning", "Listening Practice", "Movies and TV"]
 cover:
-  image: "images/articles/context-layers.webp"
+  image: "https://images.indexflowing.com/context-layers.webp"
   alt: "Layers of context in authentic Chinese dialogue"
 ---
 
-![Layers of context in authentic Chinese dialogue](images/articles/context-layers.webp)
+![Layers of context in authentic Chinese dialogue](https://images.indexflowing.com/context-layers.webp)
 
 **Textbooks can teach you the rules of Mandarin. Real dialogue teaches you what those rules sound like in everyday life.**
 
@@ -501,7 +501,7 @@ The important thing is to connect these stages instead of treating vocabulary as
 
 ## A Simple Method for Learning Chinese From Movies
 
-![Focused dialogue learning cycle](images/articles/focused-dialogue-loop.svg)
+![Focused dialogue learning cycle](https://images.indexflowing.com/focused-dialogue-loop.webp)
 
 If you want to try this approach, you don't need to redesign your entire study routine.
 

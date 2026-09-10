@@ -8,7 +8,7 @@ description: "一份适合初学者的普通话学习计划，涵盖发音、词
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning", "Learn Mandarin", "Chinese Study", "Chinese for Beginners"]
 cover:
-  image: "images/articles/structured-learning-path.svg"
+  image: "https://images.indexflowing.com/structured-learning-path.webp"
   alt: "系统普通话学习路径"
 ---
 
@@ -106,7 +106,7 @@ cover:
 
 ## 选择一门系统课程
 
-![系统普通话学习路径](images/articles/structured-learning-path.svg)
+![系统普通话学习路径](https://images.indexflowing.com/structured-learning-path.webp)
 
 现在有很多优秀的普通话学习应用，但选择太多反而会适得其反。
 
@@ -237,7 +237,7 @@ MandarinClips 让中文学习者搜索词语和表达，并在影视短片中找
 
 ## 一个简单的 30 分钟日常计划
 
-![三十分钟日常普通话计划](images/articles/thirty-minute-routine.svg)
+![三十分钟日常普通话计划](https://images.indexflowing.com/thirty-minute-routine.webp)
 
 你不需要每天学习几个小时。如果只有三十分钟，可以这样安排：
 

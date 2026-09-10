@@ -6,7 +6,7 @@ description: "A practical guide to the best Mandarin Chinese learning apps in 20
 categories: ["Products"]
 tags: ["Mandarin Learning", "Chinese Learning Apps", "Learn Mandarin", "Chinese Study", "MandarinClips"]
 cover:
-  image: "images/articles/tool-fit-matrix.svg"
+  image: "https://images.indexflowing.com/tool-fit-matrix.webp"
   alt: "Mandarin learning tools by learner goal"
 ---
 
@@ -28,7 +28,7 @@ So instead of declaring one app the universal winner, this guide looks at the st
 
 ## Quick Answer: The Best Mandarin Apps for Different Goals
 
-![Mandarin learning tools by learner goal](images/articles/tool-fit-matrix.svg)
+![Mandarin learning tools by learner goal](https://images.indexflowing.com/tool-fit-matrix.webp)
 
 | App               | Best for                               | Level                 |
 | ----------------- | -------------------------------------- | --------------------- |
@@ -424,7 +424,7 @@ Search for words and expressions and see how they appear in Chinese movie and TV
 
 # The Best Chinese Learning Setup May Use More Than One App
 
-![Complementary Mandarin learning stack](images/articles/learning-stack.svg)
+![Complementary Mandarin learning stack](https://images.indexflowing.com/learning-stack.webp)
 
 This is probably the most important lesson.
 

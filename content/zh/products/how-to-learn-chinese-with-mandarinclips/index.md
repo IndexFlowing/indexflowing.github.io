@@ -6,7 +6,7 @@ description: "用真实影视对话提升中文词汇、听力、发音与语境
 categories: ["Products"]
 tags: ["MandarinClips", "中文学习", "听力练习", "语言学习"]
 cover:
-  image: "images/articles/context-learning-cycle.svg"
+  image: "https://images.indexflowing.com/context-learning-cycle.webp"
   alt: "MandarinClips 中文语境学习循环"
 ---
 
@@ -68,7 +68,7 @@ cover:
 
 ## 8. 与已有工具配合使用
 
-![语境中文学习循环](images/articles/context-learning-cycle.svg)
+![语境中文学习循环](https://images.indexflowing.com/context-learning-cycle.webp)
 
 MandarinClips 不必取代原有学习体系。课程负责引入语法和词汇；字典解释释义和用法；闪卡帮助长期复习；教师或语伴提供真实开口机会；MandarinClips 则让你看见和听见中文在影视对话中如何真实出现。
 
@@ -78,7 +78,7 @@ MandarinClips 不必取代原有学习体系。课程负责引入语法和词汇
 
 ## 一个 15 分钟练习方案
 
-![十五分钟 MandarinClips 练习](images/articles/fifteen-minute-session.svg)
+![十五分钟 MandarinClips 练习](https://images.indexflowing.com/fifteen-minute-session.webp)
 
 1. **第 1–3 分钟**：选一个最近学过的表达，例如“原来”。
 2. **第 4–7 分钟**：搜索并看几个片段，先找规律。
