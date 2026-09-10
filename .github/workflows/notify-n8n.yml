@@ -29,7 +29,7 @@ jobs:
       - name: 发送请求到n8n
         if: steps.get_articles.outputs.files != '[]' && steps.get_articles.outputs.files != ''
         run: |
-          curl -X POST "https://n8n.indexflowing.com/webhook-test/article-push" \
+          curl -X POST "https://n8n.indexflowing.com/webhook/article-push" \
             -H "Content-Type: application/json" \
             -d '{
               "commit_id": "${{ github.sha }}",
